@@ -1,0 +1,96 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Math Quiz</string>
+    <string name="title">Basic Math Quiz</string>
+    <string name="instructions">Attempt all Ten Questions, note for the multiple
+    choice questions, you must select only the correct options, to be awarded any mark.
+    Click the SUBMIT button when you are done.</string>
+    <string name="submit">submit</string>
+    <string name="no1">Question one</string>
+    <string name="question1">What is the product
+    of a and b if their sum is 48 ?,assuming b to be 12.
+    </string>
+    <string name="question1option1">472</string>
+    <string name="question1option2">432</string>
+    <string name="question1option3">452</string>
+    <string name="question1option4">0</string>
+    <string name="no2">Question two</string>
+    <string name="question2">A thief stole $200 from a trader,
+        and used it to buy a product worth $120 from the same trader,
+        the trader gave him a balance of $50. How much did the trader loose?,
+        and how much did the thief loose assuming he did not steal the money initially.
+    </string>
+    <string name="question2option1">The trader lost $200</string>
+    <string name="question2option2">The trader lost $170</string>
+    <string name="question2option3">The thief lost $70</string>
+    <string name="question2option4">The thief lost $20</string>
+    <string name="no3">Question three</string>
+    <string name="question3">A boat can only carry 100kg weights across a river,
+        Mrs Rose and her baby weighs 60kg together, Ada weighs 25kg, Obi weighs 25kg,
+        Mr Richard weighs 50kg, Raymond weighs 40kg. Who should board the boat to have
+        maximum number of people on it without it sinking?, Mrs Rose and Mr Richard Have
+        equal weights.
+    </string>
+    <string name="question3option1">Mrs Rose</string>
+    <string name="question3option2">Mr Richard</string>
+    <string name="question3option3">Ada</string>
+    <string name="question3option4">Obi</string>
+    <string name="question3option5">Raymond</string>
+    <string name="question3option6">Baby</string>
+    <string name="no4">Question four</string>
+    <string name="question4">The sum of x and y is 19, the sum of 2x and y is 26. What is the
+        value of x.
+    </string>
+    <string name="question4option1">7</string>
+    <string name="question4option2">3</string>
+    <string name="question4option3">8</string>
+    <string name="question4option4">5</string>
+    <string name="no5">Question five</string>
+    <string name="question5">From question 4 above find the value of y
+    </string>
+    <string name="question5option1">23</string>
+    <string name="question5option2">12</string>
+    <string name="question5option3">13</string>
+    <string name="question5option4">15</string>
+    <string name="no6">Question six</string>
+    <string name="question6">x+y+z=16, x+y=13, y+z=8. find x.
+    </string>
+    <string name="question6option1">7</string>
+    <string name="question6option2">5</string>
+    <string name="question6option3">8</string>
+    <string name="question6option4">3</string>
+    <string name="no7">Question seven</string>
+    <string name="question7">From question 6 above find the value of y
+    </string>
+    <string name="question7option1">3</string>
+    <string name="question7option2">5</string>
+    <string name="question7option3">4</string>
+    <string name="question7option4">7</string>
+    <string name="no8">Question eight</string>
+    <string name="question8">From question 6 above find the value of y
+    </string>
+    <string name="question8option1">3</string>
+    <string name="question8option2">6</string>
+    <string name="question8option3">8</string>
+    <string name="question8option4">5</string>
+    <string name="no9">Question nine</string>
+    <string name="question9">The sum of three consecutive numbers is 21. what is the
+        first number?.
+    </string>
+    <string name="question9option1">7</string>
+    <string name="question9option2">9</string>
+    <string name="question9option3">8</string>
+    <string name="question9option4">6</string>
+    <string name="no10">Question ten</string>
+    <string name="question10">What are the other two number?
+    </string>
+    <string name="question10option1">8,9</string>
+    <string name="question10option2">7,8</string>
+    <string name="question10option3">9,10</string>
+    <string name="question10option4">6,7</string>
+
+    <string name="scoreMessage">You got <xliff:g example="5" id="score">%d</xliff:g>
+    out of 10 questions correctly</string>
+    <string name="allCorrect">You got all correctly, genuis</string>
+    <string name="noneCorrect">Sorry, You did not get any correctly. try again</string>
+
+</resources>
