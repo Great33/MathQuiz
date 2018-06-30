@@ -47,7 +47,7 @@
     <string name="no5">Question five</string>
     <string name="question5">From question 4 above find the value of y
     </string>
-    <string name="hint">Input Answer</string>
+    <string name="hint">Type Answer</string>
     <string name="no6">Question six</string>
     <string name="question6">x+y+z=16, x+y=13, y+z=8. find x.
     </string>

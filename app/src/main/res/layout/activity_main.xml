@@ -266,7 +266,7 @@
                 android:text="@string/question5" />
 
             <EditText
-                android:id="@+id/question5answer"
+                android:id="@+id/question5Answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"

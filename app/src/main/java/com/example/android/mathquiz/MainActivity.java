@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /*this method creates the objects for the radio buttons,edit text and check boxes and
+    /*this method creates the objects for the RadioButtons,EditText and CheckBoxes and
      * assigns them to a boolean variable to see if they are checked
      * and dispays the total correct answer when the submit button is clicked*/
     public void onSubmitButtonClick(View view) {
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         boolean question4option1Correct = question4option1.isChecked();
         /*this creates the text field for question 5 and checks if the answer is equal to
          * 12 which is the correct answer*/
-        EditText question5answer = (EditText) findViewById(R.id.question5answer);
+        EditText question5answer = (EditText) findViewById(R.id.question5Answer);
         String question5 = question5answer.getText().toString();
         boolean question5correct = question5.equals("12");
         RadioButton question6option3 = (RadioButton) findViewById(R.id.question6option3);
