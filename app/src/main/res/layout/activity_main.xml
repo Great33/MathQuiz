@@ -265,40 +265,13 @@
                 android:layout_marginRight="16dp"
                 android:text="@string/question5" />
 
-            <RadioGroup
+            <EditText
+                android:id="@+id/question5answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <RadioButton
-                    android:id="@+id/question5option1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/question5option1" />
-
-                <RadioButton
-                    android:id="@+id/question5option2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/question5option2" />
-
-                <RadioButton
-                    android:id="@+id/question5option3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/question5option3" />
-
-                <RadioButton
-                    android:id="@+id/question5option4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/question5option4" />
-
-            </RadioGroup>
+                android:layout_marginLeft="20dp"
+                android:hint="@string/hint"
+                android:inputType="number" />
 
             <TextView
                 android:layout_width="match_parent"

@@ -4,8 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,8 +16,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /*this method creates the objects for the radio buttons and check boxes and
-     * assigns them to a boolean variable to see if they are checked*/
+    /*this method creates the objects for the radio buttons,edit text and check boxes and
+     * assigns them to a boolean variable to see if they are checked
+     * and dispays the total correct answer when the submit button is clicked*/
     public void onSubmitButtonClick(View view) {
         RadioButton question1option2 = (RadioButton) findViewById(R.id.question1option2);
         boolean question1option2Correct = question1option2.isChecked();
@@ -43,8 +44,11 @@ public class MainActivity extends AppCompatActivity {
         boolean question3option6Correct = question3option6.isChecked();
         RadioButton question4option1 = (RadioButton) findViewById(R.id.question4option1);
         boolean question4option1Correct = question4option1.isChecked();
-        RadioButton question5option2 = (RadioButton) findViewById(R.id.question5option2);
-        boolean question5option2Correct = question5option2.isChecked();
+        /*this creates the text field for question 5 and checks if the answer is equal to
+         * 12 which is the correct answer*/
+        EditText question5answer = (EditText) findViewById(R.id.question5answer);
+        String question5 = question5answer.getText().toString();
+        boolean question5correct = question5.equals("12");
         RadioButton question6option3 = (RadioButton) findViewById(R.id.question6option3);
         boolean question6option3Correct = question6option3.isChecked();
         RadioButton question7option2 = (RadioButton) findViewById(R.id.question7option2);
@@ -59,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         int score = calculateScore(question1option2Correct, question2option1Correct, question2option2Correct,
                 question2option3Correct, question2option4Correct, question3option1Correct,
                 question3option2Correct, question3option3Correct, question3option4Correct, question3option5Correct,
-                question3option6Correct, question4option1Correct, question5option2Correct, question6option3Correct,
+                question3option6Correct, question4option1Correct, question5correct, question6option3Correct,
                 question7option2Correct, question8option1Correct, question9option4Correct, question10option2Correct);
         //this creates the messages to be displayed in the Toast
         String scoreMessage = getString(R.string.scoreMessage, score);
@@ -80,8 +84,9 @@ public class MainActivity extends AppCompatActivity {
     public int calculateScore(boolean option2Correct, boolean option21Correct, boolean option22Correct,
                               boolean option23Correct, boolean option24Correct, boolean option31Correct, boolean option32Correct,
                               boolean option33Correct, boolean option34Correct, boolean option35Correct, boolean option36Correct,
-                              boolean option41Correct, boolean option52Correct, boolean option63Correct, boolean option72Correct,
+                              boolean option41Correct, boolean question5ans, boolean option63Correct, boolean option72Correct,
                               boolean option81Correct, boolean option94Correct, boolean option102Correct) {
+
         int totalScore = 0;
         if (option2Correct) {
             totalScore += 1;
@@ -96,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         if (option41Correct) {
             totalScore += 1;
         }
-        if (option52Correct) {
+        if (question5ans) {
             totalScore += 1;
         }
         if (option63Correct) {

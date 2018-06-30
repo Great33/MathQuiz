@@ -47,10 +47,7 @@
     <string name="no5">Question five</string>
     <string name="question5">From question 4 above find the value of y
     </string>
-    <string name="question5option1">23</string>
-    <string name="question5option2">12</string>
-    <string name="question5option3">13</string>
-    <string name="question5option4">15</string>
+    <string name="hint">Input Answer</string>
     <string name="no6">Question six</string>
     <string name="question6">x+y+z=16, x+y=13, y+z=8. find x.
     </string>
@@ -87,7 +84,6 @@
     <string name="question10option2">7,8</string>
     <string name="question10option3">9,10</string>
     <string name="question10option4">6,7</string>
-
     <string name="scoreMessage">You got <xliff:g example="5" id="score">%d</xliff:g>
     out of 10 questions correctly</string>
     <string name="allCorrect">You got all correctly, genuis</string>
